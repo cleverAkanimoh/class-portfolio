@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta name="description" content="" />
+    <!-- <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="public/css/tailwind.min.css" />
+    <script src="/app.js"></script>
+    <title>Clever Akanimoh | Portfolio</title>
+  </head>
+  <body class="bg-gray-100">
+    <nav class="bg-gray-700 text-white p-4 fixed top-0 left-0 w-full z-50">
+      <section class="container mx-auto flex items-center justify-between">
+        <div
+          class="flex items-center gap-2 cursor-pointer"
+          title="My Portfolio"
+        >
+          <span
+            class="text-2xl font-bold bg-gray-100 text-gray-700 p-2 rounded-full"
+            >CA</span
+          >
+          <h1 class="text-2xl font-bold hidden sm:block">Clever Akanimoh</h1>
+        </div>
+        <div class="text-gray-300">
+          <a class="hover:text-gray-50" href="#">Home</a>
+          <a class="hover:text-gray-50" href="#about">About</a>
+          <a class="hover:text-gray-50" href="#projects">Projects</a>
+          <a class="hover:text-gray-50" href="#contact">Contact</a>
+        </div>
+      </section>
+    </nav>
+    
+    <header class="relative min-h-screen sm:min-h-screen flex justify-center items-center text-gray-700">
+      <img src="./public/images/articles.webp" alt="hero image" class="absolute top-0 left-0 h-full w-full opacity-80 -z-10" />
+      <div class="p-4 z-10 flex flex-col items-center justify-center">
+      <h1>Lorem ipsum dolor sit.</h1>
+      <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non doloremque animi laboriosam nam expedita placeat necessitatibus, eum deserunt. Harum, necessitatibus?</p>
+      </div>
+    </header>
+    <main class="container mx-auto sm:p-4 p-2">
+      <section id="about" class="py-8">
+        <div class="">
+          <h2 class="text-2xl font-bold mb-4">About Me</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit
+            amet velit eu libero vehicula faucibus.
+          </p>
+          <p>Skills: HTML, CSS, JavaScript</p>
+        </div>
+      </section>
+
+      <section id="projects" class="py-8">
+        <div class="">
+          <h2 class="text-2xl font-bold mb-4">Projects</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-white shadow-md p-4">
+              <h3 class="font-semibold">Project 1</h3>
+              <p>Description of Project 1</p>
+            </div>
+            <div class="bg-white shadow-md p-4">
+              <h3 class="font-semibold">Project 2</h3>
+              <p>Description of Project 2</p>
+            </div>
+            <div class="bg-white shadow-md p-4">
+              <h3 class="font-semibold">Project 3</h3>
+              <p>Description of Project 3</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="py-8">
+        <div class="">
+          <h2 class="text-2xl font-bold mb-4">Contact</h2>
+          <p>Email: example@example.com</p>
+          <p>Phone: +1234567890</p>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
